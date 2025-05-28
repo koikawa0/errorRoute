@@ -9,7 +9,7 @@ export default function Rotas() {
   return <BrowserRouter>
   <Routes>
     <Route index path="/" element={<Inicio/>}/>
-    <Route path="/Postagem/:nome/:descricao" element={<Postagem/>}/>
+    <Route path="/postagem/:nome/:descricao" element={<Postagem/>}/>
   </Routes>
   </BrowserRouter>
 }
